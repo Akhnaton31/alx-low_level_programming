@@ -4,17 +4,17 @@ void positive_or_negative(int i);
 
 {
 
-	if(i > 0)
+	if (i > 0)
 	{
-	printf("%d is positive\n", i);
+		printf("%d is positive\n", i);
 	}
-	if(i < 0)
+	if (i < 0)
 	{
-	printf("%d is negative\n", i);
+		printf("%d is negative\n", i);
 	}
-	if(i == 0)
+	if (i == 0)
 	{
-	printf("%d is zero\n", i);
+		printf("%d is zero\n", i);
 	}
 	return (0);
 }
